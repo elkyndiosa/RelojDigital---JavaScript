@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: url(fondo.jpg) #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Petrona', serif;
+}
+.wrap{
+    width: 90%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+.widget{
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em;
+    font-size: 1.5em;
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+    
+}
+.widget .fecha{
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 4px;
+}
+.widget .hora{
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 20px 0px;
+    font-size:3em;
+    width: 100%;
+    border-radius: 4px;
+}
+.widget .caja-segundos{
+    display: inline-block;
+}
+.widget .hora .caja-segundos .ampm,
+.widget .hora .caja-segundos .segundos{
+    font-size:2rem;
+    display: block;
+}
